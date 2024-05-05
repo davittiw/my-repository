@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
 }
 
+/* CONFIGURAÇÕES DE NAVEGAÇÃO */
 #navegacao{
     background-color: #3a3b3b1a;
     width: 95vw;
@@ -53,12 +54,18 @@ body{
     color: #99E2F2;
     font-size: 22px;
 }
+/*FIM CONFIGURAÇÕES DE NAVEGAÇÃO*/
 
+/*CONFIGURAÇÕES DE HOME*/
 #home{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#home img{
+    width: 500px;
 }
 
 #home .principal{
@@ -74,6 +81,7 @@ body{
 
 #home h1 span{
     color: rgb(110, 174, 211);
+    font-size: 90px;
 }
 
 #home p{
@@ -92,4 +100,30 @@ body{
 
 .social-media i:hover{
     color: #99E2F2;
+}
+/*FIM DAS CONFIGURAÇÕES DE HOME*/
+
+/*CONFIGURAÇÕES DE SOBRE*/
+#sobre{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container{
+    display: block;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.img-container img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.quarto{
+    width: 600px;
 }
